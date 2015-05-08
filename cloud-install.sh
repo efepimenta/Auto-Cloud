@@ -68,7 +68,7 @@ fi
 sleep 1;
 #instalando os pacotes necessarios
 echo -n "Adicionando os pacotes necessarios";
-yum install owncloud mariadb-server php-mysqlnd mod_ssl -y >> dev/null;
+yum install owncloud mariadb-server php-mysqlnd mod_ssl -y >> /dev/null;
 if [ $? = 0 ]; then
 	echo -e "\e[32;1m [OK] \e[m";
 else
